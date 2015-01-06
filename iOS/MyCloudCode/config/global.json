@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "ClassConnectSwift": {
+            "applicationId": "1hbfS32bQfzS6bDyz4V5i0iW980UAhXzCfahDo7b", 
+            "masterKey": "klp1xlyCwsijlwQwSHdW3NUPcASJorz9tuUAziwr"
+        }, 
+        "_default": {
+            "link": "ClassConnectSwift"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}
