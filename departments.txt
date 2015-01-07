@@ -1,0 +1,876 @@
+{
+  "universities": [
+    {
+      "universityName": "University of Washington",
+      "departments": [
+        {
+          "departmentName": "A A"
+        },
+        {
+          "departmentName": "A E"
+        },
+        {
+          "departmentName": "A S"
+        },
+        {
+          "departmentName": "AAS"
+        },
+        {
+          "departmentName": "ACCTG"
+        },
+        {
+          "departmentName": "ADMIN"
+        },
+        {
+          "departmentName": "AES"
+        },
+        {
+          "departmentName": "AFRAM"
+        },
+        {
+          "departmentName": "AIS"
+        },
+        {
+          "departmentName": "AMATH"
+        },
+        {
+          "departmentName": "ANEST"
+        },
+        {
+          "departmentName": "ANTH"
+        },
+        {
+          "departmentName": "ARAB"
+        },
+        {
+          "departmentName": "ARAMIC"
+        },
+        {
+          "departmentName": "ARCH"
+        },
+        {
+          "departmentName": "ARCHY"
+        },
+        {
+          "departmentName": "ARCTIC"
+        },
+        {
+          "departmentName": "ART"
+        },
+        {
+          "departmentName": "ART H"
+        },
+        {
+          "departmentName": "ASIAN"
+        },
+        {
+          "departmentName": "ASL"
+        },
+        {
+          "departmentName": "ASTBIO"
+        },
+        {
+          "departmentName": "ASTR"
+        },
+        {
+          "departmentName": "ATM S"
+        },
+        {
+          "departmentName": "B A"
+        },
+        {
+          "departmentName": "B CMU"
+        },
+        {
+          "departmentName": "B E"
+        },
+        {
+          "departmentName": "B ECON"
+        },
+        {
+          "departmentName": "B H"
+        },
+        {
+          "departmentName": "B STR"
+        },
+        {
+          "departmentName": "BA RM"
+        },
+        {
+          "departmentName": "BCS"
+        },
+        {
+          "departmentName": "BENG"
+        },
+        {
+          "departmentName": "BIBHEB"
+        },
+        {
+          "departmentName": "BIME"
+        },
+        {
+          "departmentName": "BIO A"
+        },
+        {
+          "departmentName": "BIOC"
+        },
+        {
+          "departmentName": "BIOEN"
+        },
+        {
+          "departmentName": "BIOL"
+        },
+        {
+          "departmentName": "BIOST"
+        },
+        {
+          "departmentName": "BMSD"
+        },
+        {
+          "departmentName": "BSE"
+        },
+        {
+          "departmentName": "BULGR"
+        },
+        {
+          "departmentName": "C ENV"
+        },
+        {
+          "departmentName": "C LIT"
+        },
+        {
+          "departmentName": "C MED"
+        },
+        {
+          "departmentName": "CEE"
+        },
+        {
+          "departmentName": "CEP"
+        },
+        {
+          "departmentName": "CFRM"
+        },
+        {
+          "departmentName": "CHEM"
+        },
+        {
+          "departmentName": "CHEM E"
+        },
+        {
+          "departmentName": "CHGTAI"
+        },
+        {
+          "departmentName": "CHID"
+        },
+        {
+          "departmentName": "CHIN"
+        },
+        {
+          "departmentName": "CHSTU"
+        },
+        {
+          "departmentName": "CL AR"
+        },
+        {
+          "departmentName": "CL LI"
+        },
+        {
+          "departmentName": "CLAS"
+        },
+        {
+          "departmentName": "CM"
+        },
+        {
+          "departmentName": "COM"
+        },
+        {
+          "departmentName": "CONJ"
+        },
+        {
+          "departmentName": "COPTIC"
+        },
+        {
+          "departmentName": "CS"
+        },
+        {
+          "departmentName": "CSDE"
+        },
+        {
+          "departmentName": "CSE"
+        },
+        {
+          "departmentName": "CSE M"
+        },
+        {
+          "departmentName": "CSE P"
+        },
+        {
+          "departmentName": "CZECH"
+        },
+        {
+          "departmentName": "D HYG"
+        },
+        {
+          "departmentName": "DANCE"
+        },
+        {
+          "departmentName": "DANISH"
+        },
+        {
+          "departmentName": "DENT"
+        },
+        {
+          "departmentName": "DESIGN"
+        },
+        {
+          "departmentName": "DIS ST"
+        },
+        {
+          "departmentName": "DPHS"
+        },
+        {
+          "departmentName": "DRAMA"
+        },
+        {
+          "departmentName": "DXARTS"
+        },
+        {
+          "departmentName": "E E"
+        },
+        {
+          "departmentName": "ECFS"
+        },
+        {
+          "departmentName": "ECON"
+        },
+        {
+          "departmentName": "EDC"
+        },
+        {
+          "departmentName": "EDLPS"
+        },
+        {
+          "departmentName": "EDPSY"
+        },
+        {
+          "departmentName": "EDSPE"
+        },
+        {
+          "departmentName": "EDTEP"
+        },
+        {
+          "departmentName": "EDUC"
+        },
+        {
+          "departmentName": "EGYPT"
+        },
+        {
+          "departmentName": "ENDO"
+        },
+        {
+          "departmentName": "ENGL"
+        },
+        {
+          "departmentName": "ENGR"
+        },
+        {
+          "departmentName": "ENTRE"
+        },
+        {
+          "departmentName": "ENV H"
+        },
+        {
+          "departmentName": "ENVIR"
+        },
+        {
+          "departmentName": "EPI"
+        },
+        {
+          "departmentName": "ESRM"
+        },
+        {
+          "departmentName": "ESS"
+        },
+        {
+          "departmentName": "ESTO"
+        },
+        {
+          "departmentName": "FAMED"
+        },
+        {
+          "departmentName": "FHL"
+        },
+        {
+          "departmentName": "FIN"
+        },
+        {
+          "departmentName": "FINN"
+        },
+        {
+          "departmentName": "FISH"
+        },
+        {
+          "departmentName": "FRENCH"
+        },
+        {
+          "departmentName": "G H"
+        },
+        {
+          "departmentName": "GEEZ"
+        },
+        {
+          "departmentName": "GEN ST"
+        },
+        {
+          "departmentName": "GENOME"
+        },
+        {
+          "departmentName": "GEOG"
+        },
+        {
+          "departmentName": "GERMAN"
+        },
+        {
+          "departmentName": "GRDSCH"
+        },
+        {
+          "departmentName": "GREEK"
+        },
+        {
+          "departmentName": "GWSS"
+        },
+        {
+          "departmentName": "HCDE"
+        },
+        {
+          "departmentName": "HCID"
+        },
+        {
+          "departmentName": "HEBR"
+        },
+        {
+          "departmentName": "HIHIM"
+        },
+        {
+          "departmentName": "HINDI"
+        },
+        {
+          "departmentName": "HONORS"
+        },
+        {
+          "departmentName": "HPS"
+        },
+        {
+          "departmentName": "HSERV"
+        },
+        {
+          "departmentName": "HSMGMT"
+        },
+        {
+          "departmentName": "HSTAA"
+        },
+        {
+          "departmentName": "HSTAFM"
+        },
+        {
+          "departmentName": "HSTAM"
+        },
+        {
+          "departmentName": "HSTAS"
+        },
+        {
+          "departmentName": "HSTCMP"
+        },
+        {
+          "departmentName": "HSTEU"
+        },
+        {
+          "departmentName": "HSTLAC"
+        },
+        {
+          "departmentName": "HSTRY"
+        },
+        {
+          "departmentName": "HUBIO"
+        },
+        {
+          "departmentName": "HUM"
+        },
+        {
+          "departmentName": "I BUS"
+        },
+        {
+          "departmentName": "I S"
+        },
+        {
+          "departmentName": "IMMUN"
+        },
+        {
+          "departmentName": "IMT"
+        },
+        {
+          "departmentName": "IND E"
+        },
+        {
+          "departmentName": "INDIV"
+        },
+        {
+          "departmentName": "INDN"
+        },
+        {
+          "departmentName": "INDO"
+        },
+        {
+          "departmentName": "INFO"
+        },
+        {
+          "departmentName": "INFX"
+        },
+        {
+          "departmentName": "INSC"
+        },
+        {
+          "departmentName": "INTSCI"
+        },
+        {
+          "departmentName": "IPHD"
+        },
+        {
+          "departmentName": "ISS"
+        },
+        {
+          "departmentName": "ITA"
+        },
+        {
+          "departmentName": "ITAL"
+        },
+        {
+          "departmentName": "JAPAN"
+        },
+        {
+          "departmentName": "JSIS"
+        },
+        {
+          "departmentName": "JSIS A"
+        },
+        {
+          "departmentName": "JSIS B"
+        },
+        {
+          "departmentName": "JSIS C"
+        },
+        {
+          "departmentName": "JSIS D"
+        },
+        {
+          "departmentName": "JSIS E"
+        },
+        {
+          "departmentName": "KAZAKH"
+        },
+        {
+          "departmentName": "KOREAN"
+        },
+        {
+          "departmentName": "KYRGYZ"
+        },
+        {
+          "departmentName": "L ARCH"
+        },
+        {
+          "departmentName": "LAB M"
+        },
+        {
+          "departmentName": "LATIN"
+        },
+        {
+          "departmentName": "LATV"
+        },
+        {
+          "departmentName": "LAW"
+        },
+        {
+          "departmentName": "LAW A"
+        },
+        {
+          "departmentName": "LAW B"
+        },
+        {
+          "departmentName": "LAW C"
+        },
+        {
+          "departmentName": "LAW E"
+        },
+        {
+          "departmentName": "LAW H"
+        },
+        {
+          "departmentName": "LAW P"
+        },
+        {
+          "departmentName": "LAW T"
+        },
+        {
+          "departmentName": "LING"
+        },
+        {
+          "departmentName": "LIS"
+        },
+        {
+          "departmentName": "LITH"
+        },
+        {
+          "departmentName": "LSJ"
+        },
+        {
+          "departmentName": "M E"
+        },
+        {
+          "departmentName": "M SCI"
+        },
+        {
+          "departmentName": "MATH"
+        },
+        {
+          "departmentName": "MCB"
+        },
+        {
+          "departmentName": "MED"
+        },
+        {
+          "departmentName": "MED EM"
+        },
+        {
+          "departmentName": "MEDCH"
+        },
+        {
+          "departmentName": "MEDECK"
+        },
+        {
+          "departmentName": "MEDENG"
+        },
+        {
+          "departmentName": "MEDEX"
+        },
+        {
+          "departmentName": "MEDRCK"
+        },
+        {
+          "departmentName": "MGMT"
+        },
+        {
+          "departmentName": "MICROM"
+        },
+        {
+          "departmentName": "MKTG"
+        },
+        {
+          "departmentName": "MODHEB"
+        },
+        {
+          "departmentName": "MSE"
+        },
+        {
+          "departmentName": "MSIS"
+        },
+        {
+          "departmentName": "MUHST"
+        },
+        {
+          "departmentName": "MUSAP"
+        },
+        {
+          "departmentName": "MUSED"
+        },
+        {
+          "departmentName": "MUSEN"
+        },
+        {
+          "departmentName": "MUSEUM"
+        },
+        {
+          "departmentName": "MUSIC"
+        },
+        {
+          "departmentName": "MUSICP"
+        },
+        {
+          "departmentName": "N"
+        },
+        {
+          "departmentName": "N SCI"
+        },
+        {
+          "departmentName": "NBIO"
+        },
+        {
+          "departmentName": "NCLIN"
+        },
+        {
+          "departmentName": "NEAR E"
+        },
+        {
+          "departmentName": "NEUBEH"
+        },
+        {
+          "departmentName": "NEUR S"
+        },
+        {
+          "departmentName": "NEURL"
+        },
+        {
+          "departmentName": "NEURO"
+        },
+        {
+          "departmentName": "NME"
+        },
+        {
+          "departmentName": "NMETH"
+        },
+        {
+          "departmentName": "NORW"
+        },
+        {
+          "departmentName": "NSG"
+        },
+        {
+          "departmentName": "NURS"
+        },
+        {
+          "departmentName": "NUTR"
+        },
+        {
+          "departmentName": "O S"
+        },
+        {
+          "departmentName": "OB GYN"
+        },
+        {
+          "departmentName": "OCEAN"
+        },
+        {
+          "departmentName": "OPHTH"
+        },
+        {
+          "departmentName": "OPMGT"
+        },
+        {
+          "departmentName": "ORALB"
+        },
+        {
+          "departmentName": "ORALM"
+        },
+        {
+          "departmentName": "ORTHO"
+        },
+        {
+          "departmentName": "ORTHP"
+        },
+        {
+          "departmentName": "OTOHN"
+        },
+        {
+          "departmentName": "P BIO"
+        },
+        {
+          "departmentName": "PABIO"
+        },
+        {
+          "departmentName": "PATH"
+        },
+        {
+          "departmentName": "PB AF"
+        },
+        {
+          "departmentName": "PBSCI"
+        },
+        {
+          "departmentName": "PCEUT"
+        },
+        {
+          "departmentName": "PEDO"
+        },
+        {
+          "departmentName": "PEDS"
+        },
+        {
+          "departmentName": "PERIO"
+        },
+        {
+          "departmentName": "PHARBE"
+        },
+        {
+          "departmentName": "PHARM"
+        },
+        {
+          "departmentName": "PHARMP"
+        },
+        {
+          "departmentName": "PHCOL"
+        },
+        {
+          "departmentName": "PHG"
+        },
+        {
+          "departmentName": "PHIL"
+        },
+        {
+          "departmentName": "PHRMRA"
+        },
+        {
+          "departmentName": "PHYS"
+        },
+        {
+          "departmentName": "POL S"
+        },
+        {
+          "departmentName": "POLSH"
+        },
+        {
+          "departmentName": "PORT"
+        },
+        {
+          "departmentName": "PROS"
+        },
+        {
+          "departmentName": "PRSAN"
+        },
+        {
+          "departmentName": "PSYCH"
+        },
+        {
+          "departmentName": "Q SCI"
+        },
+        {
+          "departmentName": "QERM"
+        },
+        {
+          "departmentName": "QMETH"
+        },
+        {
+          "departmentName": "QUAT"
+        },
+        {
+          "departmentName": "R E"
+        },
+        {
+          "departmentName": "R ONC"
+        },
+        {
+          "departmentName": "RADGY"
+        },
+        {
+          "departmentName": "REHAB"
+        },
+        {
+          "departmentName": "RES D"
+        },
+        {
+          "departmentName": "RHB PO"
+        },
+        {
+          "departmentName": "RUSS"
+        },
+        {
+          "departmentName": "SCAND"
+        },
+        {
+          "departmentName": "SCI T"
+        },
+        {
+          "departmentName": "SEFS"
+        },
+        {
+          "departmentName": "SLAV"
+        },
+        {
+          "departmentName": "SLAVIC"
+        },
+        {
+          "departmentName": "SLVN"
+        },
+        {
+          "departmentName": "SMEA"
+        },
+        {
+          "departmentName": "SNKRT"
+        },
+        {
+          "departmentName": "SOC"
+        },
+        {
+          "departmentName": "SPAN"
+        },
+        {
+          "departmentName": "SPCI"
+        },
+        {
+          "departmentName": "SPH"
+        },
+        {
+          "departmentName": "SPHSC"
+        },
+        {
+          "departmentName": "SPLING"
+        },
+        {
+          "departmentName": "STAT"
+        },
+        {
+          "departmentName": "SURG"
+        },
+        {
+          "departmentName": "SWA"
+        },
+        {
+          "departmentName": "SWED"
+        },
+        {
+          "departmentName": "TAGLG"
+        },
+        {
+          "departmentName": "THAI"
+        },
+        {
+          "departmentName": "TKIC"
+        },
+        {
+          "departmentName": "TKISH"
+        },
+        {
+          "departmentName": "TURKIC"
+        },
+        {
+          "departmentName": "UCONJ"
+        },
+        {
+          "departmentName": "UGARIT"
+        },
+        {
+          "departmentName": "UKR"
+        },
+        {
+          "departmentName": "URBDP"
+        },
+        {
+          "departmentName": "URDU"
+        },
+        {
+          "departmentName": "UROL"
+        },
+        {
+          "departmentName": "UYGUR"
+        },
+        {
+          "departmentName": "UZBEK"
+        },
+        {
+          "departmentName": "VALUES"
+        },
+        {
+          "departmentName": "VIET"
+        }
+      ]
+    }
+  ]
+}
