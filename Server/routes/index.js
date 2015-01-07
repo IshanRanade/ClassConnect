@@ -8,12 +8,9 @@ router.get('/', function(req, res) {
 
 router.get('/alldata', function(req, res) {
 	var db = req.db;
-	var collection = db.get('alldata');
-	collection.find({}, {}, function(e, docs) {
-		res.render('alldata', {
-			"alldata" : docs
-		});
-	});
+	db.collection('alldata').find().toArray(function (err, items) {
+        res.json(items);
+    });
 });
 
 module.exports = router;

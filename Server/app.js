@@ -4,13 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+// Database
+var mongo = require('mongoskin');
+var db = mongo.db("mongodb://localhost:27017/Server", {native_parser:true});
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var mongo = require('mongodb');
-var monk = require('mongoskin');
-var db = monk('mongodb://localhost:27017/nodetest1');
 
 var app = express();
 
