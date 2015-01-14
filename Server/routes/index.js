@@ -13,29 +13,11 @@ router.get('/universities', function(req, res) {
     });
 });
 
-// Gets all the departments given a university.
-router.get('/departments', function(req, res) {
-	var db = req.db;
-	var universityNameReq = req.query.universityName;
-	if (universityNameReq === undefined) {
-		res.json({msg : "Please specify a univerisity"});
-	} else {
-		db.collection('departments').find({universityName : universityNameReq}).toArray(function (err, items) {
-			if (items.length == 0) {
-				res.json({msg : "This University does not exist!"});
-			} else {
-				console.log("success");
-				res.json(items[0]); // only expecting one back
-			}
-		});
-	}
-});
 
-// Gets all the courses given a university and a department.
+// Gets all the courses given a university
 router.get('/courses', function(req, res) {
 	var db = req.db;
 	var universityNameReq = req.query.universityName;
-	var departmentNameReq = req.query.departmentName;
 	db.collection('courses').find({universityName : universityNameReq}).toArray(function (err, items) {
 		var courseFound = false;
 		if (items.length == 0) { // no university found
@@ -47,6 +29,10 @@ router.get('/courses', function(req, res) {
 	});
 });
 
+// Gets all the comments for a particular course given the university and course number.
+// Test call: universityName = University of Washington
+//		      departmentName = CSE
+//			  courseNumber   = 143
 router.get('/comments', function(req, res) {
 	var universityNameReq = req.query.universityName;
 	var departmentNameReq = req.query.departmentName;
@@ -59,39 +45,69 @@ router.get('/comments', function(req, res) {
 		res.json({msg : "Please specify a course number."});
 	} else {
 		var db = req.db;
-		db.collection('comments').find({universityName : universityNameReq}).toArray(function (err, items) {
+		var courseNameReq = departmentNameReq + " " + courseNumberReq;
+		db.collection("comments").find({courseName : courseNameReq}).toArray(function (err, items) {
 			if (items.length == 0) {
-				res.json({msg : "This University does not exist!"});
+				res.json([{msg : "No comments exist!"}]);
 			} else {
-				var commentsFound = false;
-				var departments = items[0].departments;
-				for (var index in departments) {
-					if (departments[index].departmentName == departmentNameReq && !commentsFound) { // found the right department
-						var courses = departments[index].courses;
-						for (var courseIndex in courses) { 
-							if (courses[courseIndex].courseName == courseNumberReq && !commentsFound) { // found the right course number
-								res.send(courses[courseIndex].comments);
-								commentsFound = true;
-								break;
-							}
-						}
-					}
-				}
-				if (!commentsFound) {
-					res.json({msg : "Comments not found, please try again."});
-				}
+				res.json(items);
 			}
 		});
 	}
 });
 
+// Gives back the raw JSON used for testing.
+router.get('/rawJSON', function(req, res) {
+	var db = req.db;
+	var universityNameReq = req.query.universityName;
+	var collection = req.query.collection;
+	db.collection(collection).find({universityName : universityNameReq}).toArray(function (err, result) {
+		if (err) {
+			throw err;
+		}
+		res.json(result[0]);
+	});
+});
+
+// router.post('/comments', function(req, res) {
+// 	var toPostJSON = req.body;
+// 	var curCommentsJSON = findCommentsJSON(db, toPostJSON.universityName, toPostJSON.departmentName, toPostJSON.courseNumber);
+//db.comments.find({universityName : 'University of Washington', 'departments.departmentName' : 'A A', 'departments.courses' : {"$elemMatch":{"$in":['198']}}}, {'departments.courses$':1, _id : 0})
+
+function updateCommentsJSON(toUpdate, res, req) {
+	var db = req.db;
+	
+}
+
+
+// Gets all the replies given a particular comment and university
+// Test call: universityName = University of Washington
+//			  postId = fyg6e3
 router.get('/replies', function(req, res) {
 	var db = req.db;
 	var universityNameReq = req.query.universityName;
 	var postIdReq = req.query.postId;
-	db.collection('repiles').find({university: {name : universityNameReq, comments : [{postId : postIdReq}]}}).toArray(function (err, items) {
-		res.json(items);
-	});
+	if (universityNameReq === undefined) {
+		res.json({msg : "The University field is not specified."});
+	} else if (postIdReq === undefined) {
+		res.json({msg : "The post id is not specified."});
+	} else {
+		db.collection('replies').find({universityName : universityNameReq}).toArray(function (err, items) {
+			var allComments = items[0].comments;
+			var commentFound = false;
+			for (var index in allComments) {
+				if (allComments[index].postId == postIdReq && !commentFound) {
+					res.json(allComments[index]);
+					commentFound = true;
+				}
+			}
+			if (!commentFound) {
+				res.json({msg : "Replies not found for comment " + postIdReq + ", please try again"});
+			}
+		});
+	}
 });
+
+
 
 module.exports = router;
